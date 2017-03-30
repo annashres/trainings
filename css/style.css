@@ -75,7 +75,7 @@ a:hover, a:focus, a:active, a:visited {
     margin-right: 10px;
     text-transform: uppercase;
     font-size: 12px;
-    background-color: #dd5138;
+    background-color: #0078D7;
     padding: 3px 10px;
     font-weight: 600;
     border-radius: 3px;
@@ -94,7 +94,7 @@ a:hover, a:focus, a:active, a:visited {
 }
 .side-menu ul li a span.dot {
     position: relative;
-    background-color: #dd5138;
+    background-color: #0078D7;
     border-radius: 2em;
     height: 10px;
     width: 10px;
@@ -104,6 +104,22 @@ a:hover, a:focus, a:active, a:visited {
 }
 .side-menu ul li a:hover span.dot {
 	transform: scale(1.8);
+}
+
+.header-upper {
+    background-color: #2f2f2f;
+    padding-bottom: 1.5em;
+    padding-top: 1.5em
+}
+.header {
+    background-image: url('https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/REZnW2?ver=946e');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 5em;
+    padding-top: 2em;
+	color: #fff;
+    text-align: center;
+
 }
 
 
@@ -184,7 +200,7 @@ a span.ti-twitter-alt {
 }
 
 .tickets {
-	background-color: #fcd93b;
+	background-color: #ccc;
 }
 .tickets .price {
 	font-size: 4em;
