@@ -12,6 +12,20 @@ ul {
 	padding: 0;
 	list-style: none;
 }
+.bg-cyan-300 {
+    background-color: #006cc1;
+}
+.bg-cyan-300 {
+    background-color: #006cc1;
+}
+.bg-cyan-300 {
+    background-color: #0078d7;
+    color: #fff;
+}
+
+banner-container {
+    width: 100% !important;
+}
 a {
 	-webkit-transition: all 0.3s;
   	-moz-transition: all 0.3s;
@@ -125,12 +139,16 @@ a:hover, a:focus, a:active, a:visited {
 
 .hero-header {
 	background: #016cc7;
-	min-height: 600px;
-	padding: 5em;
+	min-height: 100px;
+	padding: 1em;
 	color: #fff;
+    text-align: center;
 }
 .hero-header h1 {
 	margin: 1em 0 0 0;
+}
+.hero-header a {
+	color: #fff;
 }
 .hero-header h4 {
 	font-weight: normal;
@@ -147,6 +165,7 @@ a:hover, a:focus, a:active, a:visited {
 .hero-header .rocket {
 	max-width: 100%;
 }
+
 .me-row {
 	padding: 30px 0;
 }
@@ -199,6 +218,7 @@ a span.ti-twitter-alt {
 	color: #4099ff;
 }
 
+
 .tickets {
 	background-color: #ccc;
 }
@@ -233,36 +253,29 @@ a span.ti-twitter-alt {
 
 
 .footer {
-    background-color: #2a2a2a;
-    margin-top: 30px;
+    background-color: #0078d7;
     color: #fff;
 }
 .footer p {
-    margin-bottom: 0;
+    float: left;
+    padding: 20px;
+    font-size: 1em;
 }
-.footer-credit {
-    padding: 40px;
+.footer a {
+    color: #fff!important;
 }
-ul.footer-menu {
-    text-align: right;
-}
-ul.footer-menu li {
-    display: inline-block;
-}
-ul.footer-menu li a {
-    font-size: 12px;
-    color: #fcd93b;
-    padding-right: 20px;
-}
-ul.footer-menu li a:hover {
-    color: #dd5138;
-}
-
 
 .contact {
     background-color: #3a3a3a;
     color: #fff;
     padding: 1em;
+}
+.contact a {
+    color: #fff;
+    text-decoration: underline;
+}
+li {
+    padding-top: 10px;
 }
 .contact h3 {
     margin-bottom: 30px;
