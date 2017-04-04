@@ -181,6 +181,9 @@ a:hover, a:focus, a:active, a:visited {
     color: #016cc7;
 }
 
+.copy {
+    font-size: 10px!important;
+}
 .speaker .feature {
 	width: 30%;
 	-webkit-transition: all 0.3s;
@@ -253,10 +256,6 @@ a span.ti-twitter-alt {
 }
 
 
-.footer {
-    background-color: #0078d7;
-    color: #fff;
-}
 .footer p {
     float: left;
     padding: 20px;
@@ -266,10 +265,17 @@ a span.ti-twitter-alt {
     color: #fff!important;
 }
 
+.bottom {
+    margin-right: -15px;
+    margin-left: -15px;
+    background-color: #3a3a3a;
+    color: #fff;
+    padding: 0;
+}
 .contact {
     background-color: #3a3a3a;
     color: #fff;
-    padding: 1em;
+    padding: 0;
 }
 .contact a {
     color: #fff;
